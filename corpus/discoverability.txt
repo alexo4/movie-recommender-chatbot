@@ -1,0 +1,13 @@
+ID,Discoverability
+1,What do you do?
+2,What functions do you have?
+3,What can you do?
+4,What would you suggest I ask you?
+5,What are your main features?
+6,Can you tell me what you're capable of?
+7,What can you help me with?
+8,What are some examples of things you can do?
+8,What tasks can you perform?
+9,Give me examples of what you can do
+10,How can you help me?
+11,What things can you do?

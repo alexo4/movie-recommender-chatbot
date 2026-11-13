@@ -1,0 +1,46 @@
+ID,Answer,Response
+1,"Yes",Yes
+2,"That is correct",Yes
+3,"No",No
+4,"Absolutely",Yes
+5,"Nope",No
+6,"Indeed",Yes
+7,"Not at all",No
+8,"Affirmative",Yes
+9,"Negative",No
+10,"You got it",Yes
+11,"Definitely not",No
+12,"Of course",Yes
+13,"Certainly not",No
+14,"Sure thing",Yes
+15,"No way",No
+16,"That's right",Yes
+17,"Not really",No
+18,"Yes, indeed",Yes
+19,"No, sorry",No
+20,"Correct",Yes
+21,"Yes, that's the one!",Yes
+22,"No, that's not it.",No
+23,"Exactly, that's it!",Yes
+24,"No, I'm looking for something else.",No
+25,"Yes, that's the movie I wanted.",Yes
+26,"Nope, that's not the one I meant.",No
+27,"Yes, you've got it right.",Yes
+28,"No, that's not quite it.",No
+29,"Yes, perfect match!",Yes
+30,"No, not what I was thinking of.",No
+31,"Yes, that's the movie!",Yes
+32,"No, I had a different movie in mind.",No
+33,"Absolutely, that's it.",Yes
+34,"No, that's not what I was searching for.",No
+35,"Yes, spot on!",Yes
+36,"No, I was thinking of another title.",No
+37,"Yes, you nailed it.",Yes
+38,"No, that's not quite right.",No
+39,"Yes, exactly what I meant.",Yes
+40,"No, I think it's another movie.",No
+41,"Yeah",Yes
+42,"Nope",No
+43,"Y",Yes
+44,"N",No
+45,"Ye",Yes

@@ -1,0 +1,42 @@
+ID,Question,Type
+1,”what genre is the movie?”,Genre
+2,”How long is the movie?”,Runtime
+3,”What is the runtime?”,Runtime
+4,”Who is the director?”,Director
+5,”Who is the cast?”,Cast
+6,”What actors are in this film?”,Cast
+7,"What is the movie’s genre?",Genre
+8,"Can you tell me the genre of the movie?",Genre
+9,"Which genre does this film belong to?",Genre
+10,"What category is the movie in?",Genre
+11,"What type of movie is this?",Genre
+12,"How long does the movie last?",Runtime
+13,"What’s the length of the movie?",Runtime
+14,"Can you tell me the runtime of the film?",Runtime
+15,"What is the duration of the movie?",Runtime
+16,"How many minutes is the movie?",Runtime
+17,"Who directed this movie?",Director
+18,"Can you tell me who the director is?",Director
+19,"Who is the filmmaker?",Director
+20,"Who is behind the direction of this movie?",Director
+21,"Who’s the person who directed this film?",Director
+22,"Who stars in the movie?",Cast
+23,"Who are the main actors?",Cast
+24,"Can you tell me who’s in the cast?",Cast
+25,"Which actors appear in this film?",Cast
+26,"Who are the leading cast members?",Cast
+27,"What genre would you classify this movie as?",Genre
+28,"Can you classify the genre of this film?",Genre
+29,"What’s the film’s duration?",Runtime
+30,"How long does the film run for?",Runtime
+31,"Who’s the director of this movie?",Director
+32,"Who helmed the direction of this film?",Director
+33,"Who’s in the cast of this movie?",Cast
+34,"Can you name the actors in this film?",Cast
+35,"Who plays the leading roles in the movie?",Cast
+36,"Which genre best fits this movie?",Genre
+37,"What is the genre?",Genre
+38,"What is the runtime?",Runtime
+39,"What is the run time?",Runtime
+40,"What is the cast?",Cast
+41,"Who is in the movie?",Cast

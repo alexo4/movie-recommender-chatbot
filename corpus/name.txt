@@ -1,0 +1,41 @@
+ID,Name,type
+1,What is my name?,AskName
+2,What's my name?,AskName
+3,Do you know my name?,AskName
+4,Can you tell me my name?,AskName
+5,What do people call me?,AskName
+6,Do you remember my name?,AskName
+7,Do you know what im called?,AskName
+8,Do you know what i'm called?,AskName
+9,What do people call me?,AskName
+10,Do you know what people call me?,AskName
+11,What am i called in this chat?,AskName
+12,Do you have any idea what my name might be?,AskName
+13,Do you have a record of my name?,AskName
+14,Would you happen to know my name?,AskName
+15,Could you confirm what my name is?,AskName
+16,"Can i change my name",ChangeName
+17,"My new name is",ChangeName
+18,"Call me this now",ChangeName
+19,"I would like to change my name",ChangeName
+20,"Please call me something else",ChangeName
+21,Can you update my name?,ChangeName
+22,Can I be called something else?,ChangeName
+23,I’d like to update my name,ChangeName
+24,Could you change my name to something new?,ChangeName
+25,How do I update my name with you?,ChangeName
+26,Please update my name,ChangeName
+27,Change what you call me,ChangeName
+28,I need a new name,ChangeName
+29,Can I set a new name?,ChangeName
+30,Can you call me by another name?,ChangeName
+31,Can you remind me of my name?,AskName
+32,What name do I go by?,AskName
+33,What name do you have for me?,AskName
+34,Could you tell me my name again?,AskName
+35,Do you recall my name?,AskName
+36,What name am I using here?,AskName
+37,Can you tell me what name you have for me?,AskName
+38,What name did you assign me?,AskName
+39,Can you remind me what I'm called?,AskName
+40,What name do you know me by?,AskName

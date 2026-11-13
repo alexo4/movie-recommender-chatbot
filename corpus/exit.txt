@@ -1,0 +1,8 @@
+ID,Input
+1,"exit"
+2,"Can i leave this transaction"
+3,"go back"
+4,"back"
+5,"leave"
+6,"stop"
+7,"leave transaction"
