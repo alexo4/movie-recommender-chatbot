@@ -7,6 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from nltk.chunk import tree2conlltags
 from bs4 import BeautifulSoup
 from joblib import load
+import json
 
 from Initialise import initialise
 
@@ -66,7 +67,7 @@ def get_genre(movie):
 
     end = start[1].find("]")
     string = start[1][:end+1]
-    list = eval(string)
+    list = eval(json.loads(string))
 
     return list
 
@@ -767,21 +768,21 @@ def confirmation(text):
 # Gets a list of all movies in order of similarity to searched movie
 # Then displays the first five not already in the users' watch list
 def get_recommended_movie():
+    global recommended_movies
 
     results = find_closest(searched_movies[0])
+    recommended_movies = []
+
+    for _, movie in results:
+        if movie in watch_list:
+            continue
+        recommended_movies.append(movie)
+        if len(recommended_movies) == 5:
+            break
 
     print(name + ", these are my top five movie recommendations:")
-
-    added = 0
-    for i in range(0, 5 + added):
-        movie = results[i][1]
-        if movie in watch_list:
-            added += 1
-        else:
-            movie_name = get_movie_name(movie)
-            print("\n\t" + str(i - added + 1) + ". " + movie_name)
-
-        recommended_movies.append(movie)
+    for i, movie in enumerate(recommended_movies, start=1):
+        print("\n\t" + str(i) + ". " + get_movie_name(movie))
 
     print("\nWould you like to add any of these to your watch list")
 
@@ -944,5 +945,6 @@ def main():
             print("What else can I do for you?")
 
 
-startup()
-main()
+if __name__ == "__main__":
+    startup()
+    main()
