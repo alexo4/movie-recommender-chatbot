@@ -62,7 +62,7 @@ This movie has been added to your watch list
 
 **Dialogue state.** `main.py` is a state machine. In the base state it works out what you want, then hands over to a "transaction" (recommend, add to watch list, remove, display watch list, change name). Each transaction has its own sub-states, such as asking for a movie name, confirming a search result and asking a follow-up question. You can leave any of them by saying something like "cancel".
 
-![Main loop flow chart](docs/main_loop_flowchart.png)
+![Main loop flow chart](docs/main_loop_flowchart.jpeg)
 
 **Intent matching.** Each intent has a file of example phrases in `corpus/` (small talk, Q&A, discoverability, names, watch list commands and so on). Your input is turned into a TF-IDF vector and compared with each file using cosine similarity. The intent with the highest score wins, and thresholds I tuned by hand decide when to give up and say it didn't understand.
 
