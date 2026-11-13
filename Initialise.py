@@ -187,7 +187,7 @@ def create_vectorizer_transformer():
         else:
             documents = data[data.columns[1]].tolist()
 
-        if file == "QA.txt.":
+        if file == "QA.txt":
             lemmatiser = WordNetLemmatizer()
             analyzer = CountVectorizer().build_analyzer()
 
